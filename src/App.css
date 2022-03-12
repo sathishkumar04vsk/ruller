@@ -1,38 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 .App {
-  text-align: center;
+  font-family: "Inter" !important;
+}
+.nav-container {
+  background-color: #f9f9f6;
+}
+.d-flex {
+  gap: 20px;
+}
+.logo {
+  height: 40px;
+}
+.left-nav-lists {
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+  font-family: "Inter" !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-weight: 1000;
+  background: rgb(242, 71, 65) !important;
+  width: 109px;
+  height: 40px;
+  font-size: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.top-navbar {
+  margin-top: 60px;
+  background-color: white !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgb(242, 242, 237);
+}
+.list:hover {
+  background-color: white !important;
+}
+.list {
+  font-family: "Inter" !important;
+  border-radius: 25px !important;
+}
+.left-nav {
+  border-right: none;
+}
+.left-drawer {
+  margin-left: 60px;
+}
+.nav-item {
+  gap: 30px;
+}
+.list-text {
+  font-family: "Inter" !important;
+  font-weight: 600 !important;
+}
+#outlined-select {
+  width: 141px;
+}
+#outlined {
+  width: 360px;
+  background-color: rgb(244, 244, 242);
+}
+.top-content {
+  margin: 0px;
+  background-color: rgb(50, 105, 236);
+  color: white;
+  padding: 9px;
+  position: fixed;
+  width: 100% !important;
+}
+.text-center {
+  font-size: 14px;
+  margin: 0px;
+}
+.welcome {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.btn-import-a-rule {
+  margin-left: 80px;
+  border: 1px solid rgb(242, 71, 65);
+  border-radius: 25px;
+  color: rgb(242, 71, 65);
+  font-weight: bold;
+}
+.btn-import-a-rule:hover {
+  background-color: rgb(242, 71, 65);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-add-rule {
+  background: rgb(242, 71, 65);
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-add-rule:hover {
+  background-color: white;
+  color: rgb(242, 71, 65);
+  border: 1px solid rgb(242, 71, 65);
+}
+.title-card {
+  font-size: small;
+  font-weight: 400;
+}
+.clients {
+  align-items: center;
+  font-size: 12px;
+  padding: 10px 20px 0px 20px;
+  background-color: rgb(249, 249, 246);
+  margin: 5px;
+}
+.client-status {
+  background-color: rgb(84, 183, 104);
+  border-radius: 25px;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+}
+.client-name {
+  font-weight: bold;
+}
+.description {
+  color: rgb(50, 105, 236);
+  font-weight: bold;
+}
+.last-seen {
+  margin: 2px;
+  font-weight: bold;
+}
+.next-seen {
+  margin: 2px 0px;
+  font-weight: bold;
+}
+.schedule {
+  font-weight: normal;
+  opacity: 0.7;
+}
+.plan-container {
+  padding: 0px 4rem;
+  background-color: white !important;
+}
+.rounded-pill {
+  background-color: rgb(242, 71, 65);
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+  padding: 0px 10px;
+}
+.plan {
+  margin: 0px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.plan-content {
+  font-size: 8px;
+}
+.align-items-center {
+  margin: 0px !important;
 }
