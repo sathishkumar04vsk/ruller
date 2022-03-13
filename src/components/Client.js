@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 export const Client = () => {
   const [client, setClient] = useState([]);
   useEffect(() => {
-    fetch("https://621dddd8849220b1fc879a8e.mockapi.io/Clients", {
+    fetch("http://localhost:4000/client", {
       method: "GET",
     })
       .then((data) => data.json())
